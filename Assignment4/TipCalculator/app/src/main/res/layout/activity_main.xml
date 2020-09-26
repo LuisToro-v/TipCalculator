@@ -18,12 +18,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextNumberDecimal3"
+        android:id="@+id/checkAmountValue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
         android:ems="10"
         android:inputType="numberDecimal"
         app:layout_constraintBaseline_toBaselineOf="@+id/checkAmountLabel"
-        tools:layout_editor_absoluteX="134dp" />
+        app:layout_constraintStart_toEndOf="@+id/checkAmountLabel" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
