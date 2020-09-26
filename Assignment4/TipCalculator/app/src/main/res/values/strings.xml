@@ -3,4 +3,7 @@
     <string name="check_amount">Check amount:</string>
     <string name="party_size">Party size:</string>
     <string name="buttonCompute">Compute Tip</string>
+    <string name="heading">Tips and total (per person)</string>
+    <string name="tipLabel">Tip: </string>
+    <string name="totalLabel">Total: </string>
 </resources>
